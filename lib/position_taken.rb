@@ -5,6 +5,6 @@ def position_taken?(board, index)
       "#{board[7]}"==" "||"#{board[8]}"==" "||"#{board[9]}"==" "
     return false
 elsif  "#{board[0]}"==("X"||"O" ) || "#{board[9]}"==("X"||"O" )
-    return true
+    puts true
 end
 end
